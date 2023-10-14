@@ -1,0 +1,36 @@
+.sendForm {
+    display: flex;
+    align-items: center;
+    gap: 44px ;
+}
+
+.textarea {
+    padding: 12px 24px;
+    resize: none;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #F5F7FB;
+    border: none;
+}
+
+.textarea::placeholder {
+    opacity: 0.9;
+}
+
+.button {
+    /*align-self: flex-start;*/
+    border-radius: 20px;
+    background-color: #06C;
+    color: white;
+    padding: 10px 38px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+.button:active {
+    background-color: #0376e8;
+    transform: translateY(2px);
+}

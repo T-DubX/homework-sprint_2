@@ -1,0 +1,50 @@
+.friendMessage {
+    display: flex;
+    margin-bottom: 75px;
+    position: relative;
+}
+
+.friendImageAndText {
+    display: flex;
+}
+
+.friendImageAndText img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.friendText {
+    background-color: #F5F7FB;
+    padding: 0.5rem;
+    position: relative;
+    border-radius: 5px;
+}
+
+.friendText:after {
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-right: 10px solid #F5F7FB;
+    border-bottom: 10px solid #F5F7FB;
+    left: -15px;
+    bottom: 0;
+}
+
+.friendName {
+
+}
+
+.friendMessageText {
+
+}
+
+.friendTime {
+    color: #000;
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -15px;
+    left: 10px;
+}
